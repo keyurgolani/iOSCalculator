@@ -14,6 +14,7 @@
 		A7A3056A1EB44B43006E84B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A305681EB44B43006E84B1 /* LaunchScreen.storyboard */; };
 		A7A305751EB44B44006E84B1 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A305741EB44B44006E84B1 /* CalculatorTests.swift */; };
 		A7A305801EB44B44006E84B1 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3057F1EB44B44006E84B1 /* CalculatorUITests.swift */; };
+		A7A3058E1EB48392006E84B1 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A3058D1EB48392006E84B1 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A7A3057B1EB44B44006E84B1 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A3057F1EB44B44006E84B1 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		A7A305811EB44B44006E84B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A3058D1EB48392006E84B1 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A7A305661EB44B43006E84B1 /* Assets.xcassets */,
 				A7A305681EB44B43006E84B1 /* LaunchScreen.storyboard */,
 				A7A3056B1EB44B43006E84B1 /* Info.plist */,
+				A7A3058D1EB48392006E84B1 /* CalculatorBrain.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A3058E1EB48392006E84B1 /* CalculatorBrain.swift in Sources */,
 				A7A305621EB44B43006E84B1 /* ViewController.swift in Sources */,
 				A7A305601EB44B43006E84B1 /* AppDelegate.swift in Sources */,
 			);
